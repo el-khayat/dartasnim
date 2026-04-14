@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "cart": "Panier",
+    "admin": "Admin",
+    "search_placeholder": "Rechercher des parfums...",
+    "language": "Langue"
+  },
+  "hero": {
+    "title_line1": "L'Art du",
+    "title_line2": "Parfum",
+    "subtitle": "Découvrez notre collection raffinée des plus beaux parfums du monde, créés pour ceux qui apprécient l'extraordinaire.",
+    "shop_now": "Acheter",
+    "explore": "Explorer les Collections"
+  },
+  "collections": {
+    "title": "Nos Collections",
+    "subtitle": "Explorez des fragrances créées pour chaque essence",
+    "men": "Homme",
+    "women": "Femme",
+    "unisex": "Unisexe",
+    "oud": "Collection Oud",
+    "gift_sets": "Coffrets Cadeaux"
+  },
+  "bestsellers": {
+    "title": "Meilleures Ventes",
+    "subtitle": "Nos fragrances les plus convoitées"
+  },
+  "brand_story": {
+    "title": "Notre Histoire",
+    "text1": "Née d'une passion pour les ingrédients les plus fins, notre maison crée des fragrances exceptionnelles depuis le cœur de la Méditerranée.",
+    "text2": "Chaque flacon raconte une histoire — d'oud rare des forêts d'Asie du Sud-Est, de roses de Grasse cueillies à l'aube, d'ambre gris échoué sur des côtes lointaines.",
+    "cta": "En Savoir Plus"
+  },
+  "newsletter": {
+    "title": "Restez Informé",
+    "subtitle": "Abonnez-vous pour recevoir des offres exclusives et découvrir nos nouveautés en avant-première.",
+    "placeholder": "Entrez votre email",
+    "subscribe": "S'abonner",
+    "success": "Merci pour votre inscription !"
+  },
+  "shop": {
+    "title": "Boutique",
+    "all_products": "Tous les Produits",
+    "filters": "Filtres",
+    "sort_by": "Trier Par",
+    "sort_featured": "En Vedette",
+    "sort_price_low": "Prix : Croissant",
+    "sort_price_high": "Prix : Décroissant",
+    "sort_newest": "Nouveautés",
+    "sort_rating": "Mieux Notés",
+    "category": "Catégorie",
+    "price_range": "Gamme de Prix",
+    "brand": "Marque",
+    "scent_notes": "Notes Olfactives",
+    "clear_filters": "Réinitialiser",
+    "no_results": "Aucun produit trouvé",
+    "no_results_subtitle": "Essayez de modifier vos filtres ou termes de recherche",
+    "products_count": "{{count}} produits",
+    "apply_filters": "Appliquer les Filtres"
+  },
+  "product": {
+    "add_to_cart": "Ajouter au Panier",
+    "added_to_cart": "Ajouté au panier !",
+    "volume": "Volume",
+    "quantity": "Quantité",
+    "description": "Description",
+    "scent_profile": "Profil Olfactif",
+    "top_notes": "Notes de Tête",
+    "middle_notes": "Notes de Cœur",
+    "base_notes": "Notes de Fond",
+    "reviews": "Avis",
+    "verified_purchase": "Achat Vérifié",
+    "similar_products": "Vous Aimerez Aussi",
+    "share": "Partager",
+    "out_of_stock": "Rupture de Stock",
+    "low_stock": "Plus que {{count}} en stock",
+    "free_shipping": "Livraison Gratuite",
+    "quick_view": "Aperçu Rapide"
+  },
+  "cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide",
+    "empty_subtitle": "Il semble que vous n'avez pas encore ajouté de parfums.",
+    "continue_shopping": "Continuer les Achats",
+    "checkout": "Passer à la Caisse",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free_delivery": "Livraison Gratuite",
+    "total": "Total",
+    "remove": "Supprimer",
+    "item_removed": "Article supprimé du panier",
+    "cod_note": "Paiement à la Livraison"
+  },
+  "checkout": {
+    "title": "Commande",
+    "order_summary": "Résumé de la Commande",
+    "full_name": "Nom Complet",
+    "phone": "Numéro de Téléphone",
+    "city": "Ville / Région",
+    "address": "Adresse Complète",
+    "apartment": "Appartement / Étage (optionnel)",
+    "notes": "Notes de Commande (optionnel)",
+    "place_order": "Commander via WhatsApp",
+    "required": "Ce champ est obligatoire",
+    "invalid_phone": "Numéro de téléphone invalide",
+    "cod_only": "Paiement à la Livraison Uniquement",
+    "free_shipping_note": "Livraison gratuite dans toute l'Algérie"
+  },
+  "order_success": {
+    "title": "Commande Passée !",
+    "subtitle": "Votre commande a été envoyée via WhatsApp. Nous la confirmerons sous peu.",
+    "back_home": "Retour à l'Accueil",
+    "continue_shopping": "Continuer les Achats"
+  },
+  "admin": {
+    "title": "Tableau de Bord",
+    "login": "Connexion Admin",
+    "password": "Mot de passe",
+    "enter": "Accéder au Tableau de Bord",
+    "wrong_password": "Mot de passe incorrect",
+    "total_products": "Total Produits",
+    "low_stock": "Stock Faible",
+    "categories": "Catégories",
+    "featured": "En Vedette",
+    "add_product": "Ajouter un Produit",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce produit ?",
+    "product_added": "Produit ajouté avec succès",
+    "product_updated": "Produit mis à jour avec succès",
+    "product_deleted": "Produit supprimé avec succès",
+    "search_products": "Rechercher des produits...",
+    "stock_status": "État du Stock",
+    "all": "Tous",
+    "in_stock": "En Stock",
+    "logout": "Déconnexion"
+  },
+  "footer": {
+    "tagline": "L'Art du Parfum",
+    "quick_links": "Liens Rapides",
+    "contact": "Contact",
+    "follow_us": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "whatsapp_us": "Contactez-nous sur WhatsApp"
+  },
+  "not_found": {
+    "title": "Page Non Trouvée",
+    "subtitle": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "back_home": "Retour à l'Accueil"
+  },
+  "common": {
+    "currency": "DZD",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer"
+  },
+  "whatsapp": {
+    "new_order": "🛍️ Nouvelle Commande",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "items": "Articles",
+    "total": "Total",
+    "notes": "Notes"
+  }
+}

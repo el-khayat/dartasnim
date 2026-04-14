@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "cart": "Cart",
+    "admin": "Admin",
+    "search_placeholder": "Search perfumes...",
+    "language": "Language"
+  },
+  "hero": {
+    "title_line1": "The Art of",
+    "title_line2": "Fragrance",
+    "subtitle": "Discover our curated collection of the world's finest perfumes, crafted for those who appreciate the extraordinary.",
+    "shop_now": "Shop Now",
+    "explore": "Explore Collections"
+  },
+  "collections": {
+    "title": "Our Collections",
+    "subtitle": "Explore fragrances crafted for every essence",
+    "men": "Men",
+    "women": "Women",
+    "unisex": "Unisex",
+    "oud": "Oud Collection",
+    "gift_sets": "Gift Sets"
+  },
+  "bestsellers": {
+    "title": "Bestsellers",
+    "subtitle": "Our most coveted fragrances"
+  },
+  "brand_story": {
+    "title": "Our Story",
+    "text1": "Born from a passion for the finest ingredients, our house has been crafting exceptional fragrances since the heart of the Mediterranean.",
+    "text2": "Each bottle tells a story — of rare oud from the forests of Southeast Asia, of Grasse roses picked at dawn, of ambergris washed ashore on distant coasts.",
+    "cta": "Discover More"
+  },
+  "newsletter": {
+    "title": "Stay in the Know",
+    "subtitle": "Subscribe to receive exclusive offers and be the first to discover new arrivals.",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "success": "Thank you for subscribing!"
+  },
+  "shop": {
+    "title": "Shop",
+    "all_products": "All Products",
+    "filters": "Filters",
+    "sort_by": "Sort By",
+    "sort_featured": "Featured",
+    "sort_price_low": "Price: Low to High",
+    "sort_price_high": "Price: High to Low",
+    "sort_newest": "Newest",
+    "sort_rating": "Top Rated",
+    "category": "Category",
+    "price_range": "Price Range",
+    "brand": "Brand",
+    "scent_notes": "Scent Notes",
+    "clear_filters": "Clear Filters",
+    "no_results": "No products found",
+    "no_results_subtitle": "Try adjusting your filters or search terms",
+    "products_count": "{{count}} products",
+    "apply_filters": "Apply Filters"
+  },
+  "product": {
+    "add_to_cart": "Add to Cart",
+    "added_to_cart": "Added to cart!",
+    "volume": "Volume",
+    "quantity": "Quantity",
+    "description": "Description",
+    "scent_profile": "Scent Profile",
+    "top_notes": "Top Notes",
+    "middle_notes": "Middle Notes",
+    "base_notes": "Base Notes",
+    "reviews": "Reviews",
+    "verified_purchase": "Verified Purchase",
+    "similar_products": "You May Also Like",
+    "share": "Share",
+    "out_of_stock": "Out of Stock",
+    "low_stock": "Only {{count}} left",
+    "free_shipping": "Free Shipping",
+    "quick_view": "Quick View"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "empty_subtitle": "Looks like you haven't added any fragrances yet.",
+    "continue_shopping": "Continue Shopping",
+    "checkout": "Proceed to Checkout",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free_delivery": "Free Delivery",
+    "total": "Total",
+    "remove": "Remove",
+    "item_removed": "Item removed from cart",
+    "cod_note": "Cash on Delivery"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "order_summary": "Order Summary",
+    "full_name": "Full Name",
+    "phone": "Phone Number",
+    "city": "City / Region",
+    "address": "Full Address",
+    "apartment": "Apartment / Floor (optional)",
+    "notes": "Order Notes (optional)",
+    "place_order": "Place Order via WhatsApp",
+    "required": "This field is required",
+    "invalid_phone": "Invalid phone number",
+    "cod_only": "Cash on Delivery Only",
+    "free_shipping_note": "Free delivery across Algeria"
+  },
+  "order_success": {
+    "title": "Order Placed!",
+    "subtitle": "Your order has been sent via WhatsApp. We'll confirm it shortly.",
+    "back_home": "Back to Home",
+    "continue_shopping": "Continue Shopping"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "login": "Admin Login",
+    "password": "Password",
+    "enter": "Enter Dashboard",
+    "wrong_password": "Incorrect password",
+    "total_products": "Total Products",
+    "low_stock": "Low Stock",
+    "categories": "Categories",
+    "featured": "Featured",
+    "add_product": "Add Product",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm_delete": "Are you sure you want to delete this product?",
+    "product_added": "Product added successfully",
+    "product_updated": "Product updated successfully",
+    "product_deleted": "Product deleted successfully",
+    "search_products": "Search products...",
+    "stock_status": "Stock Status",
+    "all": "All",
+    "in_stock": "In Stock",
+    "logout": "Logout"
+  },
+  "footer": {
+    "tagline": "The Art of Fragrance",
+    "quick_links": "Quick Links",
+    "contact": "Contact",
+    "follow_us": "Follow Us",
+    "rights": "All rights reserved.",
+    "whatsapp_us": "WhatsApp Us"
+  },
+  "not_found": {
+    "title": "Page Not Found",
+    "subtitle": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to Home"
+  },
+  "common": {
+    "currency": "DZD",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry"
+  },
+  "whatsapp": {
+    "new_order": "🛍️ New Order",
+    "name": "Name",
+    "phone": "Phone",
+    "address": "Address",
+    "items": "Items",
+    "total": "Total",
+    "notes": "Notes"
+  }
+}
