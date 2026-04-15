@@ -131,7 +131,7 @@ function ProductForm({ product, onSave, onCancel }) {
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
           <div>
-            <label style={labelStyle}>Price (DZD)</label>
+            <label style={labelStyle}>Price (MAD)</label>
             <input type="number" value={form.price} onChange={e => handleChange('price', e.target.value)} style={inputStyle} required />
           </div>
           <div>
@@ -530,7 +530,7 @@ export default function Admin() {
                           <span style={{ fontSize: '0.875rem', color: '#888880', textTransform: 'capitalize' }}>{product.category}</span>
                         </td>
                         <td style={{ padding: '14px 16px' }}>
-                          <span style={{ fontSize: '0.875rem', color: '#C9A84C' }}>{formatPrice(product.price)} DZD</span>
+                          <span style={{ fontSize: '0.875rem', color: '#C9A84C' }}>{formatPrice(product.price)} MAD</span>
                         </td>
                         <td style={{ padding: '14px 16px' }}>
                           <span style={{

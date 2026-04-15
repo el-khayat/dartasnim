@@ -8,8 +8,8 @@
     "language": "Language"
   },
   "hero": {
-    "title_line1": "The Art of",
-    "title_line2": "Fragrance",
+    "title_line1": "Dar",
+    "title_line2": "Tasnim",
     "subtitle": "Discover our curated collection of the world's finest perfumes, crafted for those who appreciate the extraordinary.",
     "shop_now": "Shop Now",
     "explore": "Explore Collections"
@@ -153,7 +153,7 @@
     "back_home": "Back to Home"
   },
   "common": {
-    "currency": "DZD",
+    "currency": "MAD",
     "loading": "Loading...",
     "error": "Something went wrong",
     "retry": "Retry"

@@ -233,7 +233,7 @@ export default function Checkout() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', color: '#888880', fontSize: '0.875rem' }}>
                   <span>{t('cart.subtotal')}</span>
-                  <span>{formatPrice(total)} DZD</span>
+                  <span>{formatPrice(total)} MAD</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', color: '#888880', fontSize: '0.875rem' }}>
                   <span>{t('cart.shipping')}</span>
@@ -242,7 +242,7 @@ export default function Checkout() {
                 <hr style={{ border: 'none', borderTop: '1px solid rgba(201,168,76,0.15)', margin: '4px 0' }} />
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                   <span style={{ fontWeight: 500, color: '#F5F5F0' }}>{t('cart.total')}</span>
-                  <span style={{ color: '#C9A84C', fontSize: '1.5rem', fontWeight: 600 }}>{formatPrice(total)} DZD</span>
+                  <span style={{ color: '#C9A84C', fontSize: '1.5rem', fontWeight: 600 }}>{formatPrice(total)} MAD</span>
                 </div>
               </div>
             </div>

@@ -218,7 +218,7 @@ export default function Navbar() {
                               <p style={{ fontSize: '0.875rem', color: '#F5F5F0', margin: 0 }}>
                                 {product[`name_${i18n.language}`] || product.name_en}
                               </p>
-                              <p style={{ fontSize: '0.75rem', color: '#C9A84C', margin: 0 }}>{product.price} DZD</p>
+                              <p style={{ fontSize: '0.75rem', color: '#C9A84C', margin: 0 }}>{product.price} MAD</p>
                             </div>
                           </button>
                         ))}

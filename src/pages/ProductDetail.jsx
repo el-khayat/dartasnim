@@ -172,9 +172,9 @@ export default function ProductDetail() {
 
               {/* Price */}
               <div style={{ display: 'flex', alignItems: 'baseline', gap: '12px' }}>
-                <span style={{ color: '#C9A84C', fontSize: '1.875rem', fontWeight: 600 }}>{formatPrice(product.price)} DZD</span>
+                <span style={{ color: '#C9A84C', fontSize: '1.875rem', fontWeight: 600 }}>{formatPrice(product.price)} MAD</span>
                 {hasDiscount && (
-                  <span style={{ color: '#888880', fontSize: '1.25rem', textDecoration: 'line-through' }}>{formatPrice(product.original_price)} DZD</span>
+                  <span style={{ color: '#888880', fontSize: '1.25rem', textDecoration: 'line-through' }}>{formatPrice(product.original_price)} MAD</span>
                 )}
               </div>
 

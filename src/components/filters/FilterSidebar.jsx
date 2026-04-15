@@ -114,7 +114,7 @@ export default function FilterSidebar({ filters, setFilters }) {
       {/* Price Range */}
       <div>
         <h4 style={sectionTitle()}>
-          {t('shop.price_range')}: {(filters.maxPrice || maxPrice).toLocaleString()} DZD
+          {t('shop.price_range')}: {(filters.maxPrice || maxPrice).toLocaleString()} MAD
         </h4>
         <input
           type="range"
@@ -125,8 +125,8 @@ export default function FilterSidebar({ filters, setFilters }) {
           style={{ width: '100%', accentColor: '#C9A84C', cursor: 'pointer' }}
         />
         <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', color: '#888880', marginTop: '6px' }}>
-          <span>0 DZD</span>
-          <span>{maxPrice.toLocaleString()} DZD</span>
+          <span>0 MAD</span>
+          <span>{maxPrice.toLocaleString()} MAD</span>
         </div>
       </div>
 

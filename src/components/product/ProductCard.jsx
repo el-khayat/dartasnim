@@ -161,7 +161,7 @@ export default function ProductCard({ product, index = 0 }) {
             </h3>
             <StarRating rating={product.rating} showCount count={product.review_count} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '8px' }}>
-              <span style={{ color: '#C9A84C', fontWeight: 600, fontSize: '0.9375rem' }}>{formatPrice(product.price)} DZD</span>
+              <span style={{ color: '#C9A84C', fontWeight: 600, fontSize: '0.9375rem' }}>{formatPrice(product.price)} MAD</span>
               {hasDiscount && (
                 <span style={{ color: '#888880', fontSize: '0.8125rem', textDecoration: 'line-through' }}>{formatPrice(product.original_price)}</span>
               )}

@@ -67,7 +67,7 @@ export default function QuickView() {
           <StarRating rating={product.rating} showCount count={product.review_count} />
 
           <div style={{ display: 'flex', alignItems: 'baseline', gap: '10px' }}>
-            <span style={{ color: '#C9A84C', fontSize: '1.375rem', fontWeight: 600 }}>{formatPrice(product.price)} DZD</span>
+            <span style={{ color: '#C9A84C', fontSize: '1.375rem', fontWeight: 600 }}>{formatPrice(product.price)} MAD</span>
             {hasDiscount && (
               <span style={{ color: '#888880', fontSize: '0.9375rem', textDecoration: 'line-through' }}>{formatPrice(product.original_price)}</span>
             )}

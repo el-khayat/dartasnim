@@ -136,7 +136,7 @@ export default function Cart() {
                         </button>
                       </div>
                       <span style={{ color: '#C9A84C', fontWeight: 600, fontSize: '1.0625rem' }}>
-                        {formatPrice(item.product.price * item.quantity)} DZD
+                        {formatPrice(item.product.price * item.quantity)} MAD
                       </span>
                     </div>
                   </div>
@@ -160,7 +160,7 @@ export default function Cart() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '24px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', color: '#888880', fontSize: '0.9375rem' }}>
                   <span>{t('cart.subtotal')}</span>
-                  <span>{formatPrice(total)} DZD</span>
+                  <span>{formatPrice(total)} MAD</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', color: '#888880', fontSize: '0.9375rem' }}>
                   <span>{t('cart.shipping')}</span>
@@ -169,7 +169,7 @@ export default function Cart() {
                 <hr style={{ border: 'none', borderTop: '1px solid rgba(201,168,76,0.15)', margin: '4px 0' }} />
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                   <span style={{ fontWeight: 500, color: '#F5F5F0', fontSize: '1rem' }}>{t('cart.total')}</span>
-                  <span style={{ color: '#C9A84C', fontSize: '1.5rem', fontWeight: 600 }}>{formatPrice(total)} DZD</span>
+                  <span style={{ color: '#C9A84C', fontSize: '1.5rem', fontWeight: 600 }}>{formatPrice(total)} MAD</span>
                 </div>
               </div>
 

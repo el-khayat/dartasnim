@@ -5,7 +5,7 @@ export function buildOrderMessage({ name, phone, city, address, apartment, notes
     .map(item => {
       const lang = localStorage.getItem('language') || 'en'
       const productName = item.product[`name_${lang}`] || item.product.name_en
-      return `- ${productName} x${item.quantity} (${item.selectedVolume}) — ${item.product.price * item.quantity} DZD`
+      return `- ${productName} x${item.quantity} (${item.selectedVolume}) — ${item.product.price * item.quantity} MAD`
     })
     .join('\n')
 
@@ -19,7 +19,7 @@ ${t('whatsapp.address')}: ${fullAddress}
 ${t('whatsapp.items')}:
 ${itemLines}
 
-${t('whatsapp.total')}: ${total} DZD
+${t('whatsapp.total')}: ${total} MAD
 ${notes ? `${t('whatsapp.notes')}: ${notes}` : ''}`
 
   return message.trim()
