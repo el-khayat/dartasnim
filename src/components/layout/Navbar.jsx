@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
+import logoNav from '../../assets/logo_nav_64.png'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ShoppingBag, Search, Menu, X, Globe } from 'lucide-react'
@@ -95,18 +96,8 @@ export default function Navbar() {
       <div style={{ maxWidth: '80rem', margin: '0 auto', padding: '0 1.5rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '72px' }}>
           {/* Logo */}
-          <Link
-            to="/"
-            style={{
-              fontFamily: "'Cormorant Garamond', serif",
-              fontSize: '1.75rem',
-              fontWeight: 600,
-              color: '#C9A84C',
-              letterSpacing: '0.05em',
-              textDecoration: 'none',
-            }}
-          >
-            VELOUR
+          <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+            <img src={logoNav} alt="Dar Tasnim" style={{ height: '48px', width: 'auto' }} />
           </Link>
 
           {/* Desktop Nav Links */}

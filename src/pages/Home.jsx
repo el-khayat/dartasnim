@@ -1,5 +1,6 @@
 import { useRef, useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
+import logoTransparent from '../assets/logo_dar_tasnim_transparent.png'
 import { useTranslation } from 'react-i18next'
 import { motion, useInView } from 'framer-motion'
 import { ArrowDown, ChevronLeft, ChevronRight } from 'lucide-react'
@@ -70,30 +71,25 @@ export default function Home() {
       </Helmet>
 
       {/* Hero */}
-      <section style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', height: '100vh', minHeight: '600px' }}>
+      <section style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', height: '100vh', minHeight: '600px', paddingTop: '72px' }}>
         <div style={{ position: 'absolute', inset: 0 }}>
           <img
-            src="https://images.unsplash.com/photo-1594035910387-fea081e59eb0?w=1920&h=1080&fit=crop"
-            alt="Luxury perfume"
+            src="https://images.unsplash.com/photo-1731972206678-3376c8240198?w=1920&h=1080&fit=crop&q=80"
+            alt="Arabic luxury perfume"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
-          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4) 50%, #0D0D0D)' }} />
+          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.35) 50%, #0D0D0D)' }} />
         </div>
 
         <div style={{ position: 'relative', zIndex: 10, textAlign: 'center', padding: '0 24px', maxWidth: '56rem', margin: '0 auto' }}>
-          <motion.h1
+          <motion.img
+            src={logoTransparent}
+            alt="Dar Tasnim"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 300, marginBottom: '16px' }}
-          >
-            <span className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl" style={{ display: 'block', color: '#F5F5F0' }}>
-              {t('hero.title_line1')}
-            </span>
-            <span className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl" style={{ display: 'block', color: '#C9A84C', fontStyle: 'italic' }}>
-              {t('hero.title_line2')}
-            </span>
-          </motion.h1>
+            style={{ maxWidth: '360px', width: '100%', display: 'block', margin: '0 auto 16px' }}
+          />
 
           <motion.p
             initial={{ opacity: 0 }}
