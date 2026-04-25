@@ -106,7 +106,7 @@
     "required": "This field is required",
     "invalid_phone": "Invalid phone number",
     "cod_only": "Cash on Delivery Only",
-    "free_shipping_note": "Free delivery across Algeria"
+    "free_shipping_note": "Free delivery across Morocco"
   },
   "order_success": {
     "title": "Order Placed!",

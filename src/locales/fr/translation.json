@@ -106,7 +106,7 @@
     "required": "Ce champ est obligatoire",
     "invalid_phone": "Numéro de téléphone invalide",
     "cod_only": "Paiement à la Livraison Uniquement",
-    "free_shipping_note": "Livraison gratuite dans toute l'Algérie"
+    "free_shipping_note": "Livraison gratuite dans tout le Maroc"
   },
   "order_success": {
     "title": "Commande Passée !",

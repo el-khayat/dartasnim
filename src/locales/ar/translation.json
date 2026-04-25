@@ -106,7 +106,7 @@
     "required": "هذا الحقل مطلوب",
     "invalid_phone": "رقم هاتف غير صالح",
     "cod_only": "الدفع عند الاستلام فقط",
-    "free_shipping_note": "توصيل مجاني عبر كامل الجزائر"
+    "free_shipping_note": "توصيل مجاني عبر كامل المغرب"
   },
   "order_success": {
     "title": "تم إرسال الطلب!",
