@@ -145,7 +145,7 @@ export default function Checkout() {
 
               <div>
                 <label style={labelStyle}>{t('checkout.phone')} *</label>
-                <input type="tel" value={form.phone} onChange={handleChange('phone')} placeholder="+213 XXX XXX XXX" style={inputStyle('phone')} />
+                <input type="tel" value={form.phone} onChange={handleChange('phone')} placeholder="+212 XXX XXX XXX" style={inputStyle('phone')} />
                 {errors.phone && <p style={{ color: '#ef4444', fontSize: '0.75rem', marginTop: '6px' }}>{errors.phone}</p>}
               </div>
 

@@ -1,4 +1,4 @@
-const STORE_PHONE = import.meta.env.VITE_STORE_WHATSAPP || '+213XXXXXXXXX'
+const STORE_PHONE = import.meta.env.VITE_STORE_WHATSAPP || '+212XXXXXXXXX'
 
 export function buildOrderMessage({ name, phone, city, address, apartment, notes, items, total, t }) {
   const itemLines = items
