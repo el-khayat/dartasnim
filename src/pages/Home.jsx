@@ -34,10 +34,10 @@ export default function Home() {
   const scrollContainerRef = useRef(null)
 
   const categories = [
-    { key: 'men', image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600&h=800&fit=crop', link: '/shop?category=men' },
-    { key: 'women', image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=600&h=800&fit=crop', link: '/shop?category=women' },
-    { key: 'unisex', image: 'https://images.unsplash.com/photo-1600612253971-422e7f7faeb6?w=600&h=800&fit=crop', link: '/shop?category=unisex' },
-    { key: 'oud', image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=600&h=800&fit=crop', link: '/shop?category=oud' },
+    { key: 'men', image: 'https://www.lattafa-usa.com/cdn/shop/files/Asad-Bourbon-1.png?v=1747416709', link: '/shop?category=men' },
+    { key: 'women', image: 'https://www.intenseoud.com/cdn/shop/files/Untitleddesign-2024-01-26T101017.997.png?v=1774613584', link: '/shop?category=women' },
+    { key: 'unisex', image: 'https://www.lattafa-usa.com/cdn/shop/files/Khamrah-Qahwa-1_a2c9fdc2-8264-4da1-83e2-e5e065cecd53.png?v=1747416095', link: '/shop?category=unisex' },
+    { key: 'oud', image: 'https://www.lattafa-usa.com/cdn/shop/files/1_5a4baf04-76ee-43c9-9751-4ac43d7aba74.png?v=1747556003', link: '/shop?category=oud' },
   ]
 
   const scrollCarousel = (direction) => {
@@ -156,16 +156,16 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4" style={{ gap: '24px' }}>
           {categories.map((cat) => (
             <AnimatedSection key={cat.key}>
-              <Link to={cat.link} style={{ display: 'block', position: 'relative', borderRadius: '14px', overflow: 'hidden', aspectRatio: '3/4', textDecoration: 'none' }}>
+              <Link to={cat.link} style={{ display: 'block', position: 'relative', borderRadius: '14px', overflow: 'hidden', aspectRatio: '3/4', textDecoration: 'none', backgroundColor: '#111111' }}>
                 <img
                   src={cat.image}
                   alt={t(`collections.${cat.key}`)}
                   loading="lazy"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.7s' }}
-                  onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.08)'}
+                  style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '24px', transition: 'transform 0.7s' }}
+                  onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.06)'}
                   onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
                 />
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.2) 40%, transparent)' }} />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.1) 50%, transparent)' }} />
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '24px' }}>
                   <h3 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '1.5rem', color: '#F5F5F0' }}>
                     {t(`collections.${cat.key}`)}
